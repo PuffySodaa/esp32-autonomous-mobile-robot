@@ -1,0 +1,5 @@
+self.left_motor = Motor(in1=22, in2=21, en=23)
+self.right_motor = Motor(in1=25, in2=26, en=32)
+self.left_encoder = Encoder(pin_a=17, pin_b=16)
+self.right_encoder = Encoder(pin_a=35, pin_b=34)
+self.lcd = LCD(sda=18,scl=19)
