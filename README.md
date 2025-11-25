@@ -80,7 +80,7 @@ Open a terminal in the `simulation_pc` folder and run the script
 
 
 ## 📂 Repository Structure
-.
+``` text
 ├── firmware_esp32/             # SOURCE CODE FOR ROBOT
 │   ├── boot.py                 # Bootloader
 │   ├── main.py                 # TCP Server & Logic Loop
