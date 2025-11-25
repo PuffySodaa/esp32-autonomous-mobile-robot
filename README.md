@@ -20,7 +20,7 @@ This project involves the engineering of a distributed autonomous mobile robot s
 ## 📂 Project Structure
 ```text
 ├── pc_simulation/
-│   ├── Bai_thi_2025.py   # Main simulation & BFS logic
+│   ├── pc_simulation.py   # Main simulation & BFS logic
 ├── esp32_firmware/
 │   ├── main.py           # Main control loop & TCP Server
 │   ├── xe_config.py      # Robot kinematics & PID settings
