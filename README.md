@@ -1,4 +1,4 @@
-# IoT Autonomous Mobile Robot (AMR) with Digital Twin Simulation
+# IoT Autonomous Mobile Robot (AMR) with Digital Simulation
 
 
 ## 📖 Project Overview
@@ -15,6 +15,7 @@ The system utilizes **Breadth-First Search (BFS)** algorithms to calculate optim
 
 ---
 
+
 ## ⚙️ System Architecture
 
 The architecture follows a **Client-Server model** operating over a dedicated Wi-Fi SoftAP network:
@@ -25,11 +26,15 @@ The architecture follows a **Client-Server model** operating over a dedicated Wi
     * Visualizes the trajectory using **Turtle Graphics**.
     * Sends navigation commands via **TCP Sockets**.
 
+<img width="919" height="579" alt="image1" src="https://github.com/user-attachments/assets/e60015df-f2b1-47bd-8c89-fbdaa109215e" />
+
 2.  **Physical Robot (Server/Edge):**
     * **MCU:** ESP32 acting as a Wi-Fi Access Point (`192.168.4.1`).
     * **Control:** Parses JSON payloads to drive DC motors via L298N.
     * **Feedback:** Uses interrupt-based **Encoder Odometry** to correct heading and distance.
     * **HMI:** Displays real-time coordinates (Row, Col) and Heading ($\theta$) on an LCD.
+
+<img width="892" height="410" alt="image2" src="https://github.com/user-attachments/assets/65bd4394-4652-406a-9052-a060a4266914" />
 
 ---
 
