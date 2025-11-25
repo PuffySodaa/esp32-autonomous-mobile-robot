@@ -3,7 +3,7 @@
 
 ## 📖 Project Overview
 
-This project implements a **Distributed Autonomous Mobile Robot System** that integrates a physical differential-drive robot with a PC-based **Digital Twin simulation**.
+This project implements a **Distributed Autonomous Mobile Robot System** that integrates a physical differential-drive robot with a PC-based **Digital simulation**.
 
 The system utilizes **Breadth-First Search (BFS)** algorithms to calculate optimal paths in a dynamic environment. It establishes a real-time **TCP/IP Wi-Fi control loop**, synchronizing the virtual simulation (Python Turtle) with the physical hardware (ESP32) via JSON telemetry.
 
